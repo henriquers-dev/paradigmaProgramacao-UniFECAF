@@ -1,1 +1,0 @@
-# paradigmaProgramacao-UniFECAF
