@@ -1,1 +1,1 @@
-# Imperativo - Matéria de Paradigmas de Programação - UniFECAF
+# Paradigmas de Programação - UniFECAF
