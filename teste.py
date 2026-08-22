@@ -1,0 +1,1 @@
+print("Olá, esta matéria é Paradigmas de Programação!")
