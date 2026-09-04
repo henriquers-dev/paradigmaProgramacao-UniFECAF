@@ -1,1 +1,0 @@
-Paradigmas de Programação UniFECAF 2026.2 - 6º Semestre - CDC - Noite - Aulas Python
