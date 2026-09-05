@@ -34,3 +34,7 @@ class Condutor(Metro):
 
     def conduzir(self):
         print(f"O condutor está conduzindo o metrô da linha {self.linha}")
+
+
+metro = Metro("Linha 1899A", 200)
+onibus = Onibus("Linha 2432", 50)
