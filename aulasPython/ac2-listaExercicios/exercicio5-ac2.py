@@ -38,3 +38,9 @@ class Condutor(Metro):
 
 metro = Metro("Linha 1899A", 200)
 onibus = Onibus("Linha 2432", 50)
+
+
+metro.exibir_informacoes()
+onibus.exibir_informacoes()
+metro.transportar()
+onibus.transportar()
