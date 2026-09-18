@@ -1,13 +1,23 @@
-class Veiculo:
+from abc import ABC, abstractmethod
+
+class Veiculo(ABC):
+    @abstractmethod
     def abastecer(self):
-        print("Colocando combustível...")
+        pass
+
+class VeiculoEletrico(ABC):
+    @abstractmethod
+    def carregar(self):
+        pass
 
 class Carro(Veiculo):
-    pass
+    def abastecer(self):
+        print("Abastecendo carro...")
 
 class Moto(Veiculo):
-    pass
-
-class CarroEletrico(Veiculo):
     def abastecer(self):
-        raise Exception("Carro elétrico não usa combustível.")
+        print("Abastecendo moto...")
+
+class CarroEletrico(VeiculoEletrico):
+    def carregar(self):
+        print("Carregando carro elétrico...")
