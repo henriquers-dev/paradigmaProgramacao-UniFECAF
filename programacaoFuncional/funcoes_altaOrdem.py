@@ -8,3 +8,14 @@ def aplicar_aumento(preco):
 
 novos_precos = list(map(lambda preco: preco * 1.1, precos))
 print(novos_precos)
+
+
+# FILTER()
+# filter(funcao, iteravel)
+
+produtos = [
+    {'nome': 'fone de ouvido sem fio', 'preco': 1020},
+    {'nome': 'mouse', 'preco': 140},
+    {'nome': 'teclado', 'preco': 1200},
+    {'nome': 'monitor', 'preco': 800}
+]
