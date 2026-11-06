@@ -27,3 +27,12 @@ promocao = list(
 )
 
 print(promocao)
+
+
+# REDUCE()
+# reduce(funcao, iteravel)
+
+valores = [100, 200, 50, 150]
+
+total = reduce(lambda acum, valor: acum + valor, valores)
+print(total)
