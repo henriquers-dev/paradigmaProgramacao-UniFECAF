@@ -50,3 +50,9 @@ def subtrair(a, b):
 print(calcular(10, 5, somar)) # 15
 print(calcular(10, 5, multiplicar)) # 50
 print(calcular(10, 5, subtrair)) # 5
+
+# EXPRESSÃO LAMBDA:
+def quadrado(numero):
+    return numero ** 2
+
+quadrado_lambda = lambda numero: numero ** 2
