@@ -19,3 +19,9 @@ produtos = [
     {'nome': 'teclado', 'preco': 1200},
     {'nome': 'monitor', 'preco': 800}
 ]
+
+promocao = list(
+    filter(
+        lambda produto: produto['preco'] > 1000, produtos
+    )
+)
