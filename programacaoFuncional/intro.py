@@ -35,3 +35,18 @@ def saudacao(nome):
 
 mensagem = saudacao
 print(mensagem('HENRIQUE')) # Olá HENRIQUE
+
+
+# NOVO EXEMPLO DE FUNÇÃO DE ALTA ORDEM:
+def calcular(a, b, operacao):
+    return operacao(a, b)
+
+def somar(a, b):
+    return a + b
+def multiplicar(a, b):
+    return a * b
+def subtrair(a, b):
+    return a - b
+print(calcular(10, 5, somar)) # 15
+print(calcular(10, 5, multiplicar)) # 50
+print(calcular(10, 5, subtrair)) # 5
