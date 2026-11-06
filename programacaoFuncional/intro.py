@@ -57,4 +57,12 @@ def quadrado(numero):
 
 print("Sem lambda: ", quadrado(5))
 quadrado_lambda = lambda numero: numero ** 2
-print(f"Com lambda: {quadrado_lambda{5}}")
+print(f"Com lambda: {quadrado_lambda(5)}")
+
+
+# USO APLICÁVEL DE LAMBDA:
+def executar_operacao(a, b, operacao):
+    return operacao(a, b)
+
+resultado = executar_operacao(10, 5, lambda x, y: x + y)
+print(f"Resultado da operação: {resultado}")
