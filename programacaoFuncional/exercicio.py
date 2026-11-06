@@ -7,6 +7,7 @@ filtradas = filter(
     vendas
 )
 
+print(f"Valores filtrados: {list(filtradas)}")
 com_taxa = map(
     lambda valor: valor * 1.05,
     filtradas
@@ -17,3 +18,5 @@ total = reduce(
     acum + valor,com_taxa,
     0
 )
+
+print(f"Total das vendas com taxa: R$ {total:.2f}")
