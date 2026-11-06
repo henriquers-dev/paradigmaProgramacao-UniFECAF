@@ -55,4 +55,6 @@ print(calcular(10, 5, subtrair)) # 5
 def quadrado(numero):
     return numero ** 2
 
+print("Sem lambda: ", quadrado(5))
 quadrado_lambda = lambda numero: numero ** 2
+print(f"Com lambda: {quadrado_lambda{5}}")
