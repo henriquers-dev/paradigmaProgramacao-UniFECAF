@@ -25,3 +25,5 @@ promocao = list(
         lambda produto: produto['preco'] > 1000, produtos
     )
 )
+
+print(promocao)
